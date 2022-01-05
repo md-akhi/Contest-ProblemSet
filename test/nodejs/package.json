@@ -1,0 +1,7 @@
+{
+  "name": "nodejs",
+  "main": "js.js",
+  "scripts": {
+    "start": "node js.js < in.in > out.out"
+  }
+}

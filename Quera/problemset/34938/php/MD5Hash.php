@@ -5,11 +5,11 @@ class MD5Hash implements HashStrategy
 
     public function hash($data)
     {
-        // TODO: implement
+        return md5($data);
     }
 
     public static function getInstance()
     {
-        // TODO: implement
+        return new MD5Hash();
     }
 }

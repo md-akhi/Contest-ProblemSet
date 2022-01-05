@@ -5,11 +5,11 @@ class SHA1Hash implements HashStrategy
 
     public function hash($data)
     {
-        // TODO: implement
+        return sha1($data);
     }
 
     public static function getInstance()
     {
-        // TODO: implement
+        return new SHA1Hash();
     }
 }

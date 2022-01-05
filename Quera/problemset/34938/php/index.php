@@ -1,4 +1,5 @@
 <?php
+// https://quera.ir/problemset/34938/
 
 function __autoload($class)
 {
